@@ -63,7 +63,7 @@ const upgraded = await upgrades.upgradeProxy(proxyAddress, FadakaTokenV2);
  cd fadakacoin/backend && npm install
  cd ../frontend && npm install
 
-# Set up .env
+ :Set up .env:
 FADAKA_TESTNET_RPC=https://rpc.fadaka.io
 FADAKA_PRIVATE_KEY=your_wallet_private_key
 FADAKA_EXPLORER_API_KEY=optional_api_key
@@ -87,13 +87,14 @@ FADAKA_EXPLORER_API_KEY=optional_api_key
 # clone the repository
  git clone https://github.com/foundry-rs/foundry.git
  cd foundry
-# install Forge
+:install Forge:
  cargo install --path ./crates/forge --profile release --force --locked
-# install Cast
+#
+:install Cast:
  cargo install --path ./crates/cast --profile release --force --locked
-# install Anvil
+ /install Anvil
  cargo install --path ./crates/anvil --profile release --force --locked
-# install Chisel
+:install Chisel:
  cargo install --path ./crates/chisel --profile release --force --locked
 wget https://dist.ipfs.tech/kubo/v0.35.0/kubo_v0.35.0_linux-amd64.tar.gz
 tar -xvzf kubo_v0.35.0_linux-amd64.tar.gz
@@ -107,10 +108,10 @@ git clone https://github.com/eveem-org/panoramix.git
 # Fetch Postgres dependency
  helm dependency update fadaka-chart/
 
-# Dry‑run install
+:Dry‑run install:
  helm install fadaka fadaka-chart/ --namespace fadaka --create-namespace --dry-run
 
-# Real install
+:Real install/
  helm install fadaka fadaka-chart/ --namespace fadaka --create-namespace
 git clone https://github.com/Web4application/fadakacoin.git
  cd fadakacoin
@@ -173,7 +174,8 @@ unzip ../fadaka-typechain-setup.zip
 cd contracts && rm Example.sol && rm -rf test # if you already have them
 cd ../ # back to root
 npm install
-web4app-fadaka/
+
+:web4app-fadaka:
 ├── index.html
 ├── wallet.html
 ├── dapp.html
@@ -187,4 +189,4 @@ web4app-fadaka/
 ├── favicon.ico
 └── assets/
     ├── style.css
-    └── app.js
+    └── app.jso
