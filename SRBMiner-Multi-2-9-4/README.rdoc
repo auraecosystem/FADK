@@ -1,14 +1,12 @@
-SRBMiner-MULTI AMD & NVIDIA & INTEL & CPU cryptocurrency miner:
------------------------------------------
+SRBMiner-MULTI AMD & NVIDIA & INTEL & CPU cryptocurrency miner
+---------------------------------------
 
-🕵️ Cryptocurrency miner 🕵️‍♂️
+Cryptocurrency miner 🕵️‍♂️
 
 Mine up to 4 different algorithms/coins at the same time!
 
-
-_> Download :
-https://www.srbminer.com/download.html
-https://github.com/doktor83/SRBMiner-Multi
+[Download](https://www.srbminer.com/download.html)
+(https://github.com/doktor83/SRBMiner-Multi)
 
 
 Support :
@@ -16,7 +14,7 @@ https://discord.gg/zXY23De
 https://bitcointalk.org/index.php?topic=5190081.0
 
 
-_> [SUPPORTED ALGORITHMS]
+[SUPPORTED ALGORITHMS]
 
 C : CPU
 A : AMD GPU
