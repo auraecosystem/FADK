@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Smart profitability-based miner controller
 
-CUSTOM_WALLET="web4.331855"
+CUSTOM_WALLET="0x33B1d0270eE11396C39f913451c043eAcdc56e08"
 CUSTOM_POOL="us-south01.miningrigrentals.com:3344"
 CUSTOM_POOL2="us-east01.miningrigrentals.com:3344"
 CUSTOM_GPU="all"
