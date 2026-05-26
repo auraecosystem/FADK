@@ -2,8 +2,8 @@
 # Smart profitability-based miner controller
 
 CUSTOM_WALLET="0x33B1d0270eE11396C39f913451c043eAcdc56e08"
-CUSTOM_POOL="us-south01.miningrigrentals.com:3344"
-CUSTOM_POOL2="us-east01.miningrigrentals.com:3344"
+CUSTOM_POOL="us-south01.miningrigrentals.com:3333"
+CUSTOM_POOL2="us-east01.miningrigrentals.com:3333"
 CUSTOM_GPU="all"
 
 # 1. Detect GPUs
