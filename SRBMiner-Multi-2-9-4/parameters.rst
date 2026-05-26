@@ -1,4 +1,4 @@
-Generic parameters:
+:Generic parameters:
 
 --algorithm value               (algorithm/s to use, separate values with ;)
 --algorithm-gpu value           (gpu-only algorithm/s, separate values with ;)
