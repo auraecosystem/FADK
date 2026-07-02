@@ -1,0 +1,20 @@
+"""
+@title A simulator for Bug Bunny, the most famous Rabbit
+@license MIT
+@author Warned Bros
+@notice You can use this contract for only the most basic simulation
+@dev
+    Simply chewing a carrot does not count, carrots must pass
+    the throat to be considered eaten
+"""
+
+@external
+@payable
+def doesEat(food: String[30], qty: uint256) -> bool:
+    """
+    @notice Determine if Bugs will accept `qty` of `food` to eat
+    @dev Compares the entire string and does not rely on a hash
+    @param food The name of a food to evaluate (in English)
+    @param qty The number of food items to evaluate
+    @return True if Bugs will eat it, False otherwise
+    """

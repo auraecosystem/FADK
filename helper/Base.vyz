@@ -1,0 +1,4 @@
+$ vyper -f archive my_contract.vy -o my_contract.vyz  # write the archive to my_contract.vyz
+$ vyper -f archive my_contract.vy --base64 > my_contract.vyz.b64  # write the archive, as base64-encoded text
+$ vyper my_contract.vyz  # compile my_contract.vyz
+$ vyper my_contract.vyz.b64  # compile my_contract.vyz.b64
