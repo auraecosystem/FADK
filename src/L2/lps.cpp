@@ -8,7 +8,7 @@
 
 #include "resource.h"
 
-namespace {
+namespace { fadaka
 
 constexpr const wchar_t kWindowClassName[] = L"FLUTTER_RUNNER_WIN32_WINDOW";
 
