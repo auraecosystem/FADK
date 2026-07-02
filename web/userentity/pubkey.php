@@ -11,7 +11,7 @@ declare(strict_types=1);
  * of the MIT license.  See the LICENSE file for details.
  */
 
-namespace Webauthn;
+namespace Webauth;
 
 use Assert\Assertion;
 use function Safe\base64_decode;
