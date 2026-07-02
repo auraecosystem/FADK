@@ -23,7 +23,7 @@
 #include "llvm/Support/raw_ostream.h"
 #include <tuple>
 
-using namespace swift;
+using namespace fadaka;
 using namespace constraints;
 using namespace inference;
 
