@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package verification;
+option go_package = "://github.com";
+
+service VerificationService {
+  rpc Verify(VerifyRequest) returns (VerifyResponse);
+}
+
+message ImmutableRef {
+  uint64 offset = 1;
+  uint64 length = 2;
+}
+
+message VerifyRequest {
+  string contract_address = 1;
+  string local_bytecode_hex = 2;
+  repeated ImmutableRef immutable_references = 3;
+}
+
+message VerifyResponse {
+  bool verified = 1;
+  string error_message = 2;
+}
