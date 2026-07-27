@@ -1,6 +1,7 @@
 Fadaka Smart Contract: ARC-inspired Resource Management
 =======================================================
 
+
 Overview
 --------
 This smart contract simulates Automatic Reference Counting (ARC) inspired
