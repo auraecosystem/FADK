@@ -70,4 +70,3 @@
 	conf+=`cat $GLOBAL_CONFIG`"\n"
 
 	echo -e "$conf" > $MINER_CONFIG
-
